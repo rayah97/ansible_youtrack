@@ -1,0 +1,10 @@
+---
+- name: Install youtrack
+  hosts: managed_nodes
+  become: true
+
+
+  roles:
+    - geerlingguy.java
+    - oukooveu.youtrackcd
+    
